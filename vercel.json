@@ -1,12 +1,5 @@
 {
     "version": 2,
-    "builds": [
-        {
-          "src": "public/*",
-          "use": "@vercel/static"
-        }
-      ],
-    "outputDirectory": "dist",
     "framework": null,
     "functions": {
         "api/index.php": { "runtime": "vercel-php@0.3.1" }
